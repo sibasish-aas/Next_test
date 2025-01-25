@@ -1,0 +1,163 @@
+.app-bar {
+  background-color: #FFFDEC;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 1200;
+  transition: all 0.3s ease;
+}
+
+.app-bar.scrolled {
+  background-color: rgba(255, 253, 236, 0.85);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.toolbar {
+  height: 70px;
+}
+
+.menu-button {
+  margin-right: 16px;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.menu-button.mini {
+  transform: rotate(180deg);
+}
+
+.search-container {
+  position: relative;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.04);
+  width: 200px;
+  margin-right: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.search-container:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.search-icon-wrapper {
+  padding: 0 16px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.search-input {
+  color: inherit;
+  width: 100%;
+}
+
+.search-input input {
+  padding: 8px 8px 8px 0;
+  padding-left: calc(1em + 32px);
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-button {
+  color: black;
+}
+
+.icon-button:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.notification-badge .MuiBadge-badge {
+  background-color: #FF4842;
+  color: white;
+  min-width: 18px;
+  height: 18px;
+  font-size: 0.75rem;
+}
+
+.profile-card {
+  padding: 16px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.menu-paper {
+  overflow: visible;
+  filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.32));
+  margin-top: 8px;
+}
+
+.menu-paper:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 14px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  transform: translateY(-50%) rotate(45deg);
+  z-index: 0;
+}
+
+.profile-menu {
+  padding: 16px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profile-role {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 0.875rem;
+}
+
+.menu-divider {
+  margin: 8px 0;
+}
+
+.menu-item {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.menu-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.menu-item.logout {
+  color: #FF4842;
+}

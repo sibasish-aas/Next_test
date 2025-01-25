@@ -1,0 +1,44 @@
+{
+  "name": "user-login",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NEXT_PUBLIC_NETWORK_MODE=false && next dev -p 3000",
+    "dev:network": "set NEXT_PUBLIC_NETWORK_MODE=true && next dev -H 192.168.0.144 -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/lab": "^6.0.0-beta.21",
+    "@mui/material": "^6.3.1",
+    "@mui/x-date-pickers-pro": "^7.23.3",
+    "@reduxjs/toolkit": "^2.5.0",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dompurify": "^3.2.3",
+    "framer-motion": "^11.15.0",
+    "next": "^15.1.2",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-quill": "^2.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.3",
+    "react-toastify": "^11.0.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.2",
+    "ignore-loader": "^0.1.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}
