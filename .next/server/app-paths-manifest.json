@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/manage-interview-rounds/page": "app/manage-interview-rounds/page.js",
+  "/manage-skill/page": "app/manage-skill/page.js",
+  "/manage-country/page": "app/manage-country/page.js",
+  "/add-users/page": "app/add-users/page.js",
+  "/manage-users/page": "app/manage-users/page.js"
+}
